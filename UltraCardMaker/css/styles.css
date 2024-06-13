@@ -1,0 +1,198 @@
+/*ako se styles izmijeni dio koda, kada se napravi refresh on zapravo prvo traži u cache zadane vrijednosti te ih od tamo povlači, zato se stari dio učitava kako spada a noviji ne*/
+
+#Naslov{
+    color: aquamarine;
+}
+
+.body-background{
+    background-color: #6f42c1;
+}
+
+textarea {
+    resize: none;
+  }
+
+#GENERATEDCARD{
+    position: relative;
+    width: 421px;
+    height: 614px;
+}
+
+#CardAttribute {
+    position: absolute;
+    top: 27px;
+    right: 24px;
+}
+
+#CardTitle {
+    position: absolute;
+    width: 322px;
+    height: 33px;
+    top: 26px;
+    left: 24px;
+
+    overflow: hidden;
+    overflow-wrap: break-word;
+
+    font-size: 26px;
+}
+
+#CardText {
+    position: absolute;
+    width: 360px;
+    height: 77px;
+    top: 480px;
+    right: 30px;
+    font-style: normal;
+
+    overflow: hidden;
+    overflow-wrap: break-word;
+
+    font-size: 15px;
+    line-height: 18px;
+}
+
+/* #CardImage when pendulum
+
+    width: 366px;
+    height: 272px;
+    top: 110px; 111
+    left: 27px;
+*/
+
+#CardImage {
+    position: absolute;
+    object-fit: cover;
+    width: 325px;
+    height: 323px;
+    top: 111px;
+    left: 48px;
+}
+
+#CardLevelRank {
+    position: absolute;
+    width: 340px;
+    height: 27px;
+    top: 71px;
+    left: 40px;
+}
+
+.STAR{
+    width: 27px;
+    height: 27px;
+}
+
+#CardSet {
+    position: absolute;
+    width: 80px;
+    height: 15px;
+    top: 439px;
+    left: 306px;
+
+    text-align: right;
+}
+
+#CardMonsterType {
+    position: absolute;
+    width: 250px;
+    height: 19px;
+    top: 460px;
+    left: 30px;
+    font-weight: bold;
+
+    overflow: hidden;
+    overflow-wrap: break-word;
+}
+
+#CardPendulumText {
+    position: absolute;
+    width: 290px;
+    height: 65px;
+    top: 387px;
+    left: 66px;
+
+    overflow: hidden;
+    overflow-wrap: break-word;
+
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#CardPendulumLeft {
+    position: absolute;
+    width: 25px;
+    height:25px;
+    top: 418px;
+    left: 28px;
+
+    font-size: 26px;
+    text-align: right;
+}
+
+#CardPendulumRight{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 418px;
+    left: 366px;
+
+    font-size: 26px;
+    text-align: right;
+}
+
+#CardATK {
+    position: absolute;
+    width: 40px;
+    height: 15px;
+    top: 559px;
+    left: 265px;
+
+    text-align: right;
+}
+
+#CardDEF {
+    position: absolute;
+    width: 40px;
+    height: 15px;
+    top: 562px;
+    top: 559px; 
+    left: 350px;
+
+    text-align: right;
+}
+
+#CardLinkRating {
+    position: absolute;
+    width: 10px;
+    height: 15px;
+    top: 559px;
+    left: 373px;
+    font-weight: bold;
+
+    font-size: 15x;
+}
+
+#CardSerialNum {
+    position: absolute;
+    width: 60px;
+    height: 13px;
+    top: 583px;
+    left: 18px;
+
+    font-size: 10x;
+}
+
+#CardCopyright {
+    position: absolute;
+    width: 200px;
+    height: 13px;
+    top: 587px;
+    left: 180px;
+
+    overflow: hidden;
+    overflow-wrap: break-word;
+    text-align: right;
+
+    font-size: 10px;
+    font-weight: lighter;
+}
